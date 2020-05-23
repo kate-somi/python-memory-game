@@ -12,8 +12,8 @@ import time
 from PIL import ImageTk
 from tkinter import messagebox
 
-from Intro import choose_level
-from Intro import choose_mode
+from intro import choose_level
+from intro import choose_mode
 
 MODE = choose_mode()
 LEVEL = choose_level()

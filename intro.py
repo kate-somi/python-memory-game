@@ -24,7 +24,7 @@ def choose_mode():
                   bg="misty rose")
     rules.pack(side=TOP)
     colored_mode = Button(text="COLORED MODE", width="23", height="5", bg="rosy brown",
-                          command=lambda mode=1, route='images/pic':
+                          command=lambda mode=1, route='images/CodeInPlace/pic':
                           clicked(mode, route, intro_root, chosen_mode))
     colored_mode.pack(side=LEFT)
     colorblind_mode = Button(text="COLORBLIND MODE", width="23", height="5", bg="rosy brown",
